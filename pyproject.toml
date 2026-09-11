@@ -1,7 +1,7 @@
 [project]
 name = "fashion-trend-intelligence-clothes-segmentation"
 version = "0.1.0"
-description = "Project 1 of the OpenClassruooms' AI Engineer training path. The goal is to use the segformer_b3_clothes model through Hugging Face to make clothes segmentation on fashion photographies."
+description = "Project 2 of the OpenClassruooms' AI Engineer training path. The goal is to use the segformer_b3_clothes model through Hugging Face to make clothes segmentation on fashion photographies."
 readme = "README.md"
 authors = [
     { name = "Simon Tirant", email = "simon.tirant@gmail.com" }
