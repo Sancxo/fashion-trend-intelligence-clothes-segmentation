@@ -1,0 +1,22 @@
+[project]
+name = "fashion-trend-intelligence-clothes-segmentation"
+version = "0.1.0"
+description = "Project 1 of the OpenClassruooms' AI Engineer training path. The goal is to use the segformer_b3_clothes model through Hugging Face to make clothes segmentation on fashion photographies."
+readme = "README.md"
+authors = [
+    { name = "Simon Tirant", email = "simon.tirant@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "matplotlib>=3.11.1",
+    "numpy>=2.5.3",
+    "pillow>=12.3.0",
+    "requests>=2.34.2",
+]
+
+[project.scripts]
+fashion-trend-intelligence-clothes-segmentation = "fashion_trend_intelligence_clothes_segmentation:main"
+
+[build-system]
+requires = ["uv_build>=0.12.3,<0.13.0"]
+build-backend = "uv_build"
